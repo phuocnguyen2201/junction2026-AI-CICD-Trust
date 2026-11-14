@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/attendees",
+      "response": "Attendee[]"
+    },
+    {
+      "method": "POST",
+      "path": "/attendees",
+      "request": { "name": "string", "email": "string" },
+      "response": "Attendee | { error, issues[] }"
+    },
+    {
+      "method": "GET",
+      "path": "/issues",
+      "response": "string[]"
+    }
+  ]
+}

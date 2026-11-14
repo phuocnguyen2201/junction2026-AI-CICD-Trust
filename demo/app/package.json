@@ -1,0 +1,17 @@
+{
+  "name": "event-signup-demo",
+  "version": "1.0.0",
+  "description": "Synthetic demo app for Pre-PR Guard (back-end API + front-end page). Not real code.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node api/server.js",
+    "format": "node tools/format.mjs --write",
+    "format:check": "node tools/format.mjs --check",
+    "lint": "node tools/lint.mjs",
+    "typecheck": "node tools/typecheck.mjs",
+    "test:default": "node --test \"test/**/*.test.js\"",
+    "test:e2e": "node --test \"e2e/**/*.e2e.js\"",
+    "test:legacy": "ID_FORMAT=legacy node --test test/store.test.js test/routes.test.js test/report.test.js test/web-format.test.js"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "preguard",
+  "version": "0.1.0",
+  "description": "Pre-PR Guard: requirement cards, tests-first, fast local checks and a readiness report before the PR.",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "preguard": "bin/preguard.mjs"
+  },
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.8.0"
+  }
+}

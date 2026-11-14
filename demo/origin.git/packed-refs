@@ -1,0 +1,10 @@
+# pack-refs with: peeled fully-peeled sorted 
+5a066731227c5ed0895da901a605db90cb2e2fcb refs/heads/demo/api-change
+a1ce5af983b2170dccd3f7c4d5262012472147f7 refs/heads/demo/clean
+cb62a4833c85db01a6ad8042a1d0447b5d223676 refs/heads/demo/env-mismatch
+17112b622326b8d60287d728dc5074d6ae615d5f refs/heads/demo/false-claim
+a411492c29bcbf473a2c7fa72ebd5b72951673ae refs/heads/demo/missing-mode
+4851557efeca1b5d8ed4810019a430b74af6f078 refs/heads/demo/scope-noise
+14512101878adfacc11efe0cfbc8f54e8ba8ca42 refs/heads/demo/silent-drop
+4f6530a5545b35ad3ef02d3d35e6b5293df143ce refs/heads/demo/too-wide
+a45f5b02047f25fd6fb13c52a590a96dbbd50044 refs/heads/main
